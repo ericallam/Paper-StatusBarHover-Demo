@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07CDD97618A53E0000A1DB67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CDD97518A53E0000A1DB67 /* Foundation.framework */; };
+		07CDD97818A53E0000A1DB67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CDD97718A53E0000A1DB67 /* CoreGraphics.framework */; };
+		07CDD97A18A53E0000A1DB67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CDD97918A53E0000A1DB67 /* UIKit.framework */; };
+		07CDD98018A53E0000A1DB67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07CDD97E18A53E0000A1DB67 /* InfoPlist.strings */; };
+		07CDD98218A53E0000A1DB67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CDD98118A53E0000A1DB67 /* main.m */; };
+		07CDD98618A53E0000A1DB67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CDD98518A53E0000A1DB67 /* AppDelegate.m */; };
+		07CDD98818A53E0000A1DB67 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07CDD98718A53E0000A1DB67 /* Images.xcassets */; };
+		07CDD98F18A53E0000A1DB67 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CDD98E18A53E0000A1DB67 /* XCTest.framework */; };
+		07CDD99018A53E0000A1DB67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CDD97518A53E0000A1DB67 /* Foundation.framework */; };
+		07CDD99118A53E0000A1DB67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CDD97918A53E0000A1DB67 /* UIKit.framework */; };
+		07CDD99918A53E0000A1DB67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07CDD99718A53E0000A1DB67 /* InfoPlist.strings */; };
+		07CDD99B18A53E0000A1DB67 /* PaperOverStatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CDD99A18A53E0000A1DB67 /* PaperOverStatusBarTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07CDD99218A53E0000A1DB67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07CDD96A18A53E0000A1DB67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07CDD97118A53E0000A1DB67;
+			remoteInfo = PaperOverStatusBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07CDD97218A53E0000A1DB67 /* PaperOverStatusBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperOverStatusBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CDD97518A53E0000A1DB67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07CDD97718A53E0000A1DB67 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07CDD97918A53E0000A1DB67 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07CDD97D18A53E0000A1DB67 /* PaperOverStatusBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaperOverStatusBar-Info.plist"; sourceTree = "<group>"; };
+		07CDD97F18A53E0000A1DB67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07CDD98118A53E0000A1DB67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07CDD98318A53E0000A1DB67 /* PaperOverStatusBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PaperOverStatusBar-Prefix.pch"; sourceTree = "<group>"; };
+		07CDD98418A53E0000A1DB67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07CDD98518A53E0000A1DB67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07CDD98718A53E0000A1DB67 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07CDD98D18A53E0000A1DB67 /* PaperOverStatusBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperOverStatusBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CDD98E18A53E0000A1DB67 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		07CDD99618A53E0000A1DB67 /* PaperOverStatusBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaperOverStatusBarTests-Info.plist"; sourceTree = "<group>"; };
+		07CDD99818A53E0000A1DB67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07CDD99A18A53E0000A1DB67 /* PaperOverStatusBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperOverStatusBarTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07CDD96F18A53E0000A1DB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDD97818A53E0000A1DB67 /* CoreGraphics.framework in Frameworks */,
+				07CDD97A18A53E0000A1DB67 /* UIKit.framework in Frameworks */,
+				07CDD97618A53E0000A1DB67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CDD98A18A53E0000A1DB67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDD98F18A53E0000A1DB67 /* XCTest.framework in Frameworks */,
+				07CDD99118A53E0000A1DB67 /* UIKit.framework in Frameworks */,
+				07CDD99018A53E0000A1DB67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CDD96918A53E0000A1DB67 = {
+			isa = PBXGroup;
+			children = (
+				07CDD97B18A53E0000A1DB67 /* PaperOverStatusBar */,
+				07CDD99418A53E0000A1DB67 /* PaperOverStatusBarTests */,
+				07CDD97418A53E0000A1DB67 /* Frameworks */,
+				07CDD97318A53E0000A1DB67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07CDD97318A53E0000A1DB67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07CDD97218A53E0000A1DB67 /* PaperOverStatusBar.app */,
+				07CDD98D18A53E0000A1DB67 /* PaperOverStatusBarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07CDD97418A53E0000A1DB67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07CDD97518A53E0000A1DB67 /* Foundation.framework */,
+				07CDD97718A53E0000A1DB67 /* CoreGraphics.framework */,
+				07CDD97918A53E0000A1DB67 /* UIKit.framework */,
+				07CDD98E18A53E0000A1DB67 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07CDD97B18A53E0000A1DB67 /* PaperOverStatusBar */ = {
+			isa = PBXGroup;
+			children = (
+				07CDD98418A53E0000A1DB67 /* AppDelegate.h */,
+				07CDD98518A53E0000A1DB67 /* AppDelegate.m */,
+				07CDD98718A53E0000A1DB67 /* Images.xcassets */,
+				07CDD97C18A53E0000A1DB67 /* Supporting Files */,
+			);
+			path = PaperOverStatusBar;
+			sourceTree = "<group>";
+		};
+		07CDD97C18A53E0000A1DB67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07CDD97D18A53E0000A1DB67 /* PaperOverStatusBar-Info.plist */,
+				07CDD97E18A53E0000A1DB67 /* InfoPlist.strings */,
+				07CDD98118A53E0000A1DB67 /* main.m */,
+				07CDD98318A53E0000A1DB67 /* PaperOverStatusBar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07CDD99418A53E0000A1DB67 /* PaperOverStatusBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				07CDD99A18A53E0000A1DB67 /* PaperOverStatusBarTests.m */,
+				07CDD99518A53E0000A1DB67 /* Supporting Files */,
+			);
+			path = PaperOverStatusBarTests;
+			sourceTree = "<group>";
+		};
+		07CDD99518A53E0000A1DB67 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07CDD99618A53E0000A1DB67 /* PaperOverStatusBarTests-Info.plist */,
+				07CDD99718A53E0000A1DB67 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07CDD97118A53E0000A1DB67 /* PaperOverStatusBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CDD99E18A53E0000A1DB67 /* Build configuration list for PBXNativeTarget "PaperOverStatusBar" */;
+			buildPhases = (
+				07CDD96E18A53E0000A1DB67 /* Sources */,
+				07CDD96F18A53E0000A1DB67 /* Frameworks */,
+				07CDD97018A53E0000A1DB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaperOverStatusBar;
+			productName = PaperOverStatusBar;
+			productReference = 07CDD97218A53E0000A1DB67 /* PaperOverStatusBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07CDD98C18A53E0000A1DB67 /* PaperOverStatusBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CDD9A118A53E0000A1DB67 /* Build configuration list for PBXNativeTarget "PaperOverStatusBarTests" */;
+			buildPhases = (
+				07CDD98918A53E0000A1DB67 /* Sources */,
+				07CDD98A18A53E0000A1DB67 /* Frameworks */,
+				07CDD98B18A53E0000A1DB67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07CDD99318A53E0000A1DB67 /* PBXTargetDependency */,
+			);
+			name = PaperOverStatusBarTests;
+			productName = PaperOverStatusBarTests;
+			productReference = 07CDD98D18A53E0000A1DB67 /* PaperOverStatusBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07CDD96A18A53E0000A1DB67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					07CDD98C18A53E0000A1DB67 = {
+						TestTargetID = 07CDD97118A53E0000A1DB67;
+					};
+				};
+			};
+			buildConfigurationList = 07CDD96D18A53E0000A1DB67 /* Build configuration list for PBXProject "PaperOverStatusBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07CDD96918A53E0000A1DB67;
+			productRefGroup = 07CDD97318A53E0000A1DB67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07CDD97118A53E0000A1DB67 /* PaperOverStatusBar */,
+				07CDD98C18A53E0000A1DB67 /* PaperOverStatusBarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07CDD97018A53E0000A1DB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDD98018A53E0000A1DB67 /* InfoPlist.strings in Resources */,
+				07CDD98818A53E0000A1DB67 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CDD98B18A53E0000A1DB67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDD99918A53E0000A1DB67 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07CDD96E18A53E0000A1DB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDD98618A53E0000A1DB67 /* AppDelegate.m in Sources */,
+				07CDD98218A53E0000A1DB67 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07CDD98918A53E0000A1DB67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CDD99B18A53E0000A1DB67 /* PaperOverStatusBarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07CDD99318A53E0000A1DB67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07CDD97118A53E0000A1DB67 /* PaperOverStatusBar */;
+			targetProxy = 07CDD99218A53E0000A1DB67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07CDD97E18A53E0000A1DB67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CDD97F18A53E0000A1DB67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		07CDD99718A53E0000A1DB67 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CDD99818A53E0000A1DB67 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07CDD99C18A53E0000A1DB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		07CDD99D18A53E0000A1DB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07CDD99F18A53E0000A1DB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaperOverStatusBar/PaperOverStatusBar-Prefix.pch";
+				INFOPLIST_FILE = "PaperOverStatusBar/PaperOverStatusBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07CDD9A018A53E0000A1DB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaperOverStatusBar/PaperOverStatusBar-Prefix.pch";
+				INFOPLIST_FILE = "PaperOverStatusBar/PaperOverStatusBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		07CDD9A218A53E0000A1DB67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PaperOverStatusBar.app/PaperOverStatusBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaperOverStatusBar/PaperOverStatusBar-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PaperOverStatusBarTests/PaperOverStatusBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		07CDD9A318A53E0000A1DB67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PaperOverStatusBar.app/PaperOverStatusBar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PaperOverStatusBar/PaperOverStatusBar-Prefix.pch";
+				INFOPLIST_FILE = "PaperOverStatusBarTests/PaperOverStatusBarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07CDD96D18A53E0000A1DB67 /* Build configuration list for PBXProject "PaperOverStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CDD99C18A53E0000A1DB67 /* Debug */,
+				07CDD99D18A53E0000A1DB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CDD99E18A53E0000A1DB67 /* Build configuration list for PBXNativeTarget "PaperOverStatusBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CDD99F18A53E0000A1DB67 /* Debug */,
+				07CDD9A018A53E0000A1DB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07CDD9A118A53E0000A1DB67 /* Build configuration list for PBXNativeTarget "PaperOverStatusBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CDD9A218A53E0000A1DB67 /* Debug */,
+				07CDD9A318A53E0000A1DB67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07CDD96A18A53E0000A1DB67 /* Project object */;
+}
