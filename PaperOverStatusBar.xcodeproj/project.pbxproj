@@ -19,6 +19,9 @@
 		07CDD99118A53E0000A1DB67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07CDD97918A53E0000A1DB67 /* UIKit.framework */; };
 		07CDD99918A53E0000A1DB67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07CDD99718A53E0000A1DB67 /* InfoPlist.strings */; };
 		07CDD99B18A53E0000A1DB67 /* PaperOverStatusBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CDD99A18A53E0000A1DB67 /* PaperOverStatusBarTests.m */; };
+		07CDD9A718A53E3200A1DB67 /* BackgroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CDD9A518A53E3200A1DB67 /* BackgroundViewController.m */; };
+		07CDD9A818A53E3200A1DB67 /* BackgroundViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CDD9A618A53E3200A1DB67 /* BackgroundViewController.xib */; };
+		07CDD9AB18A53EAC00A1DB67 /* ForegroundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CDD9AA18A53EAC00A1DB67 /* ForegroundViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		07CDD99618A53E0000A1DB67 /* PaperOverStatusBarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PaperOverStatusBarTests-Info.plist"; sourceTree = "<group>"; };
 		07CDD99818A53E0000A1DB67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		07CDD99A18A53E0000A1DB67 /* PaperOverStatusBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaperOverStatusBarTests.m; sourceTree = "<group>"; };
+		07CDD9A418A53E3200A1DB67 /* BackgroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundViewController.h; sourceTree = "<group>"; };
+		07CDD9A518A53E3200A1DB67 /* BackgroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundViewController.m; sourceTree = "<group>"; };
+		07CDD9A618A53E3200A1DB67 /* BackgroundViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackgroundViewController.xib; sourceTree = "<group>"; };
+		07CDD9A918A53EAC00A1DB67 /* ForegroundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForegroundViewController.h; sourceTree = "<group>"; };
+		07CDD9AA18A53EAC00A1DB67 /* ForegroundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForegroundViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +119,11 @@
 				07CDD98518A53E0000A1DB67 /* AppDelegate.m */,
 				07CDD98718A53E0000A1DB67 /* Images.xcassets */,
 				07CDD97C18A53E0000A1DB67 /* Supporting Files */,
+				07CDD9A418A53E3200A1DB67 /* BackgroundViewController.h */,
+				07CDD9A518A53E3200A1DB67 /* BackgroundViewController.m */,
+				07CDD9A618A53E3200A1DB67 /* BackgroundViewController.xib */,
+				07CDD9A918A53EAC00A1DB67 /* ForegroundViewController.h */,
+				07CDD9AA18A53EAC00A1DB67 /* ForegroundViewController.m */,
 			);
 			path = PaperOverStatusBar;
 			sourceTree = "<group>";
@@ -219,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07CDD98018A53E0000A1DB67 /* InfoPlist.strings in Resources */,
+				07CDD9A818A53E3200A1DB67 /* BackgroundViewController.xib in Resources */,
 				07CDD98818A53E0000A1DB67 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,7 +253,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				07CDD98618A53E0000A1DB67 /* AppDelegate.m in Sources */,
+				07CDD9A718A53E3200A1DB67 /* BackgroundViewController.m in Sources */,
 				07CDD98218A53E0000A1DB67 /* main.m in Sources */,
+				07CDD9AB18A53EAC00A1DB67 /* ForegroundViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
